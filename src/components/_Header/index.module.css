@@ -1,0 +1,31 @@
+/* Colours */
+@import "open-props/blue";
+@import "open-props/gray";
+@import "open-props/orange";
+
+/* Layout */
+@import "open-props/borders";
+
+/* Typograpy */
+@import "open-props/fonts";
+@import "open-props/sizes";
+
+.header {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  /*background-color: var(--blue-1);*/
+  /*border-bottom: var(--border-size-2) solid var(--blue-8);*/
+}
+
+.button {
+  font-size: var(--font-size-7);
+  color: var(--gray-8);
+  background-color: transparent;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: var(--orange-7);
+}

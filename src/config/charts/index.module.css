@@ -1,0 +1,9 @@
+/* Colours */
+@import "open-props/blue";
+
+.bar { border: 2px solid white; }
+.bar:nth-child(odd) { fill: var(--blue-4); }
+.bar:nth-child(even) { fill: var(--blue-6);  }
+.bar:hover { cursor: pointer; }
+
+.label { font-size: 0.75em; }
