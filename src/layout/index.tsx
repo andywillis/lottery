@@ -1,6 +1,6 @@
 import Router from 'preact-router';
 
-import { About, Home, Settings } from '../pages';
+import { About, Home } from '../pages';
 import { Header } from '../components';
 
 /**
@@ -9,16 +9,12 @@ import { Header } from '../components';
  * @return {React.ReactElement}
  */
 function Layout() {
-
-	useTheme();
-
 	return (
 		<>
 			<Header />
 			<Router>
 				<Home path="/" />
 				<About path="/about" />
-				<Settings path="/settings" />
 			</Router>
 		</>
 	);

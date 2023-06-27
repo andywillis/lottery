@@ -14,14 +14,12 @@ function NavItem(props) {
 		title,
 		type,
 		handleClick,
-		disabled = false,
-		themeMode
+		disabled = false
 	} = props;
 
 	const cn = classNames([
 		style.icon,
-		style[type],
-		style[themeMode.value]
+		style[type]
 	]);
 
 	return (

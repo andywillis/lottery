@@ -2,10 +2,12 @@ import { useEffect, useState } from 'preact/hooks';
 
 import { IBall } from '../../types';
 
-import BallGrid from '../BallGrid';
-import Header from '../Header';
-import Chart from '../Chart';
-import SelectedBalls from '../SelectedBalls';
+import {
+  BallGrid,
+  // Header,
+  Chart,
+  SelectedBalls
+} from '../../components';
 
 import {
   initNumbers,
@@ -46,8 +48,8 @@ export default function App() {
   }, [selectedBalls]);
 
   return (
-    <main className={styles.main}>
-      <Header handleClick={initialise} />
+    <main className={style.main}>
+      {/*<Header handleClick={initialise} />*/}
       <BallGrid balls={balls} />
       <SelectedBalls selectedBalls={selectedBalls} />
       <Chart type="histogram" data={tally} />
