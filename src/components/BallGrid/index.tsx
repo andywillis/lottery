@@ -8,7 +8,7 @@ interface Props {
   balls: IBall[];
 }
 
-export default function BallGrid({ balls }: Props): JSX.Element {
+export default function BallGrid({ balls }: Props) {
   return (
     <section className={styles.balls}>
       <section className={styles.grid}>

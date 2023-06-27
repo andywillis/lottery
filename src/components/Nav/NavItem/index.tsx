@@ -2,13 +2,20 @@ import classNames from 'classnames';
 
 import style from './index.module.css';
 
+interface Props {
+	title: string;
+	disabled: boolean;
+	type: string;
+	handleClick(): void;
+}
+
 /**
  * NavItem
  *
  * @param {Object} { type, handleClick }
  * @return {React.ReactElement}
  */
-function NavItem(props) {
+function NavItem(props: Props) {
 
 	const {
 		title,

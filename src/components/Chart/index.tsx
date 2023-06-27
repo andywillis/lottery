@@ -1,11 +1,16 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'preact/hooks';
 
 import charts from '../../charts';
 import chartConfig from '../../config/charts';
 
 import style from './index.module.css';
 
-export default function Chart({ type, data }) {
+interface Props {
+  type: 'histogram';
+  data: number[];
+}
+
+export default function Chart({ type, data }: Props) {
 
   const ref = useRef(null);
 

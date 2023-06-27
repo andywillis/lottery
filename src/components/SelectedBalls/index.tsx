@@ -8,7 +8,7 @@ interface Props {
   selectedBalls: IBall[];
 }
 
-export default function BallGrid({ selectedBalls }: Props): JSX.Element {
+export default function BallGrid({ selectedBalls }: Props) {
   return (
     <section className={styles.selected}>
       {createBalls(selectedBalls)}

@@ -1,6 +1,12 @@
+import type { ComponentChildren } from "preact";
+
 import style from './style.module.css';
 
-function Nav({ children }) {
+interface Props {
+	children: ComponentChildren;
+}
+
+function Nav({ children }: Props) {
 	return (
 		<section class={style.nav}>
 			{children}

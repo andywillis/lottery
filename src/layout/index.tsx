@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import Router from 'preact-router';
 
 import { About, Home } from '../pages';
