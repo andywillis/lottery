@@ -4,7 +4,7 @@ import { IBall } from '../../types';
 
 import {
   BallGrid,
-  // Header,
+  Clicker,
   Chart,
   SelectedBalls
 } from '../../components';
@@ -49,7 +49,7 @@ export default function App() {
 
   return (
     <main className={style.main}>
-      {/*<Header handleClick={initialise} />*/}
+      <Clicker handleClick={initialise} />
       <BallGrid balls={balls} />
       <SelectedBalls selectedBalls={selectedBalls} />
       <Chart type="histogram" data={tally} />

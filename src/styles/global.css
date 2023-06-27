@@ -1,7 +1,6 @@
 @import './colors';
 @import './sizes';
 @import './typeography';
-@import './map';
 @import './viewport';
 
 :root {
@@ -69,14 +68,6 @@
 
 	/* Anchor */
 	--theme-anchor-color: var(--blue-1);
-
-	.leaflet-container {
-		background-color: var(--map-dark);
-	}
-
-	.leaflet-tile {
-		filter: var(--leaflet-tile-filter, none);
-	}
 
 	& a {
 		color: var(--theme-anchor-color);

@@ -47,9 +47,9 @@ export default function App() {
 
   return (
     <main className={style.main}>
-      <Header handleClick={initialise} />
-      <BallGrid balls={balls} />
-      <SelectedBalls selectedBalls={selectedBalls} />
+      {/* <Header handleClick={initialise} /> */}
+      {/* <BallGrid balls={balls} /> */}
+      {/* <SelectedBalls selectedBalls={selectedBalls} /> */}
       <Chart type="histogram" data={tally} />
     </main>
   );

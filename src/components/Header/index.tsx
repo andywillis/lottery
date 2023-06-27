@@ -12,19 +12,13 @@ import style from './style.module.css';
 function Header() {
 	return (
 		<header class={style.header}>
-			<Link href="/"><h1>Walking Journal</h1></Link>
+			<Link href="/"><h1>Lottery Simulator</h1></Link>
 			<Nav>
 				<Link
 					href="/about"
 					class={style.anchor}
 					activeClassName={style.active}
 				>About
-				</Link>
-				<Link
-					href="/settings"
-					class={style.anchor}
-					activeClassName={style.active}
-				>Settings
 				</Link>
 			</Nav>
 		</header>

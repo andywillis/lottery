@@ -9,8 +9,8 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 721px) {
+/* @media (min-width: 721px) {
 	.main {
 		flex-direction: row;
 	}
-}
+} */

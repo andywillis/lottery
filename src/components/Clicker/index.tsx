@@ -4,7 +4,7 @@ interface Props {
   handleClick(): void;
 }
 
-export default function Header({ handleClick }: Props): JSX.Element {
+export default function Clicker({ handleClick }: Props): JSX.Element {
   return (
     <header className={styles.header}>
       <button
