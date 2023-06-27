@@ -1,21 +1,21 @@
-@import 'open-props/green-hsl';
 @import 'open-props/blue-hsl';
 @import 'open-props/gray-hsl';
 @import 'open-props/orange-hsl';
+@import 'open-props/red-hsl';
 @import 'open-props/yellow-hsl';
 
 :root {
 
-	--green-0: hsl(var(--green-0-hsl));
-	--green-1: hsl(var(--green-1-hsl));
-	--green-2: hsl(var(--green-2-hsl));
-	--green-3: hsl(var(--green-3-hsl));
-	--green-4: hsl(var(--green-4-hsl));
-	--green-5: hsl(var(--green-5-hsl));
-	--green-6: hsl(var(--green-6-hsl));
-	--green-7: hsl(var(--green-7-hsl));
-	--green-8: hsl(var(--green-8-hsl));
-	--green-9: hsl(var(--green-9-hsl));
+	--red-0: hsl(var(--red-0-hsl));
+	--red-1: hsl(var(--red-1-hsl));
+	--red-2: hsl(var(--red-2-hsl));
+	--red-3: hsl(var(--red-3-hsl));
+	--red-4: hsl(var(--red-4-hsl));
+	--red-5: hsl(var(--red-5-hsl));
+	--red-6: hsl(var(--red-6-hsl));
+	--red-7: hsl(var(--red-7-hsl));
+	--red-8: hsl(var(--red-8-hsl));
+	--red-9: hsl(var(--red-9-hsl));
 	
 	--blue-0: hsl(var(--blue-0-hsl));
 	--blue-1: hsl(var(--blue-1-hsl));
@@ -60,8 +60,5 @@
 	--yellow-7: hsl(var(--yellow-7-hsl));
 	--yellow-8: hsl(var(--yellow-8-hsl));
 	--yellow-9: hsl(var(--yellow-9-hsl));
-
-	/* --map-dark: #303030; */
-	--map-dark: var(--gray-8);
 
 }

@@ -8,8 +8,8 @@
 .grid {
   display: grid;
   width: 75%;
-  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-  gap: 0.3em;
+  grid-template-columns: repeat(auto-fit, minmax(var(--size-px-50), 1fr));
+  gap: var(--size-rem-md);
   margin: var(--size-9) 0;
 }
 

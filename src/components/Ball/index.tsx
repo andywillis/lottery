@@ -4,7 +4,7 @@ import { IBall } from '../../types';
 
 import styles from './index.module.css';
 
-export default function Ball({ number, type }: IBall): JSX.Element {
+export default function Ball({ number, type }: IBall) {
 
   const cn = classnames({
     [styles.ball]: true,
